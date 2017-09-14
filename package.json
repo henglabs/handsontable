@@ -1,6 +1,7 @@
 {
   "name": "handsontable.js",
   "title": "handsontable.js",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "Hengshi handsontable custom build",
   "main": "handsontable.js",
