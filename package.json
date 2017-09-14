@@ -3,7 +3,7 @@
   "title": "handsontable.js",
   "license": "MIT",
   "description": "Hengshi handsontable custom build",
-  "main": "handsontable.min.js",
+  "main": "handsontable.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/henglabs/handsontable"
