@@ -23,8 +23,8 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
- * Version: 0.34.4
- * Date: Wed Sep 13 2017 19:59:28 GMT+0800 (CST)
+ * Version: 0.34.5
+ * Date: Tue Oct 17 2017 16:28:43 GMT+0800 (CST)
  */
 /**
  * Fix for bootstrap styles
@@ -268,13 +268,12 @@
 }
 
 #hot-display-license-info {
+  display: none;
   // font-size: 9px;
   // color: #323232 ;
   // padding: 5px 0 3px 0;
   // font-family: Helvetica, Arial, sans-serif;
   // text-align: left;
-  font-size: 0;
-  display: none;
 }
 
 /* plugins */
@@ -1059,6 +1058,14 @@ thead .htCollapseButton:after {
   animation: opacity-show 0.3s;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
+}
+textarea#HandsontableCopyPaste {
+  position: fixed !important;
+  top: 0 !important;
+  right: 100% !important;
+  overflow: hidden;
+  opacity: 0;
+  outline: 0 none !important;
 }
 .handsontable .wtHider {
   position: relative;

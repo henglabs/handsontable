@@ -9,7 +9,7 @@ Hengshi handsontable custom build
 -  ColumnSorting [excluded]
 -  Comments [excluded]
 -  ContextMenu [excluded]
--  CopyPaste [excluded]
+-  CopyPaste [included]
 -  CustomBorders [excluded]
 -  DragToScroll [excluded]
 -  ManualColumnFreeze [excluded]
